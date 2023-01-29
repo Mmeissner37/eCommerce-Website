@@ -40,11 +40,31 @@ nav li {
     margin-right: 0.5rem;
 }
 
+.About img {
+    width: auto;
+    height: 250px;
+    align-items: right;
+}
+
 .home section img {
     width: 500px;
 }
 
+.Products img {
+    width: 200px;
+    height: auto;
+}
 
+.product-info {
+    width: 300px;
+    text-align: auto;
+}
+
+.product content {
+    display: flex;
+    flex-direction: wrap;
+    flex-direction: row;
+}
 
 
 input,
