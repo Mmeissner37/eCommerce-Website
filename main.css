@@ -19,6 +19,7 @@ nav a {
     color: black;
     text-decoration: none;
     font-size: 16px;
+    border-bottom: 4px solid #707070;
 }
 
 nav img {
@@ -33,6 +34,11 @@ nav ul {
     position: absolute;   
     top: 0.7rem;
     left: 1rem;
+}
+
+.cart {
+    text-align: left;
+    position: absolute;
 }
 
 nav li {
@@ -50,6 +56,39 @@ nav li {
     width: 500px;
 }
 
+.about-header {
+    border-bottom: 4px solid #707070;
+    border-width: 47%;
+}
+
+.about-first {
+    width: 47%;
+    height: 300px;
+}
+
+.image2 {
+    align-items: left;
+    image-orientation: flip;
+}
+
+.head-product {
+    border-bottom: 4px solid #707070;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.product1 img , .product2 img, .product3 img, .product4 img, .product5 img, .product6 img, .product7 img, .product8 img, .product9 img {
+    border: black solid 0.5px;
+}
+
+
 .Products img {
     width: 200px;
     height: auto;
@@ -60,10 +99,8 @@ nav li {
     text-align: auto;
 }
 
-.product-content {
-    display: flex;
-    flex-direction: wrap;
-    flex-direction: row;
+.Learn-more {
+    color: #BF7631;
 }
 
 
@@ -83,10 +120,13 @@ footer{
     text-align: center;
     padding: 4rem;
     width: 100%;
+    height: auto;
     left: 0;
     right: 0;
+    word-spacing: 500;
 }
 
-.footer {
+.footer img {
     image-orientation: inline;
+    width: 45px;
 }
