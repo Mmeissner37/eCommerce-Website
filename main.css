@@ -60,7 +60,7 @@ nav li {
     text-align: auto;
 }
 
-.product content {
+.product-content {
     display: flex;
     flex-direction: wrap;
     flex-direction: row;
