@@ -1,4 +1,62 @@
 html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI';
+    background-color: white;
+    color: black;
+}
+
+header {
+    position: relative;
+    padding: 0.5rem; 
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    position: absolute;   
+    top: 0.7rem;
+    left: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.cart {
+    display: left;
+    margin-left: 0.5rem;
+    left: 1rem; 
+}
+
+input,
+textarea,
+select {
+  display: inline;
+  text-align: center;
+  margin: 10px 0 0 0;
+  width: 50%;
+  min-height: 2em;
+}
+
+
+footer{
+    background-color: #BF7631;
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.footer {
+    image-orientation: inline;
+}
