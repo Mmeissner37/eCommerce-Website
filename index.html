@@ -9,17 +9,21 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="">CARA CARA</a>
-            <img alt="logo" src="./assets/icons8-pottery-96.png" />
-            <ul class="nav">
-                <li><a href="home">HOME</a></li>
-                <li><a href="About">ABOUT</a></li>
-                <li><a href="Products">PRODUCTS</li>
-                <li><a href="Contact">CONTACT</a></li> 
-                <li><a href="Cart">CART()</a></li>
-            </ul>
-        </nav>
+        <div class="navigation"></div>
+            <nav>
+                <h4 class="header-head">CARA<a href=""><img alt="Cara Cara logo" src="./assets/icons8-pottery-96.png" /></a>CARA</h4>
+                <ul class="nav1">
+                    <li><a href="home">HOME</a></li>
+                    <li><a href="About">ABOUT</a></li>
+                    <li><a href="Products">PRODUCTS</li>
+                    <li><a href="Contact">CONTACT</a></li> 
+                </ul>
+                <ul class="nav2">
+                    <label class="search"><input type="search" value="SEARCH" /><img src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="search icon"></label>
+                    <li><a href="Cart">CART()</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <div class="home">
@@ -29,43 +33,45 @@
                 <h1 class="bottom">...FROM THE GROUND UP</h1>
             </section>
         </div>
-        <section class="About">
-            <h1 class="about-header">ABOUT US</h1>
-            <p class="about-first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
-                faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
-                ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
-                risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
-                amet commodo.
-            </p>
-            <img class="image1" src="./assets/Vase_Dame_2048x2048.jpg" alt="small potted plant" />
-            <img class="image2" src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="dried whispy plant in white pot" />
-            <p class="about-second">Nulla porttitor massa id neque aliquam
-                vestibulum morbi. Facilisi nullam vehicula
-                ipsum a arcu cursus vitae congue. Nam libero
-                justo laoreet sit amet cursus sit amet dictum.
-                Tristique magna sit amet purus gravida quis.
-                Velit euismod in pellentesque massa placerat.
-                In ante metus dictum at tempor commodo.
-                Libero nunc consequat interdum varius sit
-                amet mattis. Egestas sed sed risus pretium
-                quam vulputate dignissim. Diam phasellus
-                vestibulum lorem sed risus. Cursus sit amet
-                dictum sit amet justo donec enim.
-            </p>
-            <p class="about-third">
-                Tincidunt praesent semper feugiat nibh sed.
-                Vulputate mi sit amet mauris commodo quis
-                imperdiet massa. Amet tellus cras adipiscing
-                enim eu turpis egestas pretium aenean.
-                Nullam ac tortor vitae purus 
-            </p>
-        </section>
+        <div class="About">
+            <section class="About">
+                <h1 class="about-header">ABOUT US</h1>
+                <p class="about-first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
+                    faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
+                    ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
+                    risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
+                    amet commodo.
+                </p>
+                <img class="image1" src="./assets/Vase_Dame_2048x2048.jpg" alt="small potted plant" />
+                <img class="image2" src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="dried whispy plant in white pot" />
+                <p class="about-second">Nulla porttitor massa id neque aliquam
+                    vestibulum morbi. Facilisi nullam vehicula
+                    ipsum a arcu cursus vitae congue. Nam libero
+                    justo laoreet sit amet cursus sit amet dictum.
+                    Tristique magna sit amet purus gravida quis.
+                    Velit euismod in pellentesque massa placerat.
+                    In ante metus dictum at tempor commodo.
+                    Libero nunc consequat interdum varius sit
+                    amet mattis. Egestas sed sed risus pretium
+                    quam vulputate dignissim. Diam phasellus
+                    vestibulum lorem sed risus. Cursus sit amet
+                    dictum sit amet justo donec enim.
+                </p>
+                <p class="about-third">
+                    Tincidunt praesent semper feugiat nibh sed.
+                    Vulputate mi sit amet mauris commodo quis
+                    imperdiet massa. Amet tellus cras adipiscing
+                    enim eu turpis egestas pretium aenean.
+                    Nullam ac tortor vitae purus 
+                </p>
+            </section>
+        </div>
         <section class="Products">
             <h1 class="head-product">OUR PRODUCTS</h1>
             <div class="product-content">
                 <div class="product1">
-                    <a href="">
+                    <a href="PRODUCTS">
                     <img id="Mundo Bowl" src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" />
                     <h3>MUNDO BOWLS $48.00</h3>
                     <p class="product-info">Tincidunt praesent semper feugiat nibh
@@ -191,12 +197,14 @@
     </main>
     <footer>
         <div class="footer">
-            <img src="./assets/icons8-youtube-96.png" alt="YouTube icon" />
-            <img src="./assets/icons8-facebook-96 (1).png" alt="Facebook icon" />
-            <h2>CARA <img src="./assets/icons8-pottery-96 (1).png" alt="small white pot" /> CARA</h2>
-            <img src="./assets/icons8-twitter-96.png" alt="Twitter icon" />
-            <img src="./assets/icons8-instagram-96.png" alt="Instagram icon" />
-            <p>
+            <section class="footer-icons">
+                <img src="./assets/icons8-youtube-96.png" alt="YouTube icon" />
+                <img src="./assets/icons8-facebook-96 (1).png" alt="Facebook icon" />
+                <h2 class="footer-head">CARA <a href=""><img src="./assets/icons8-pottery-96 (1).png" alt="small white pot" /></a> CARA</h2>
+                <img src="./assets/icons8-twitter-96.png" alt="Twitter icon" />
+                <img src="./assets/icons8-instagram-96.png" alt="Instagram icon" />
+            </section>
+            <p class="footer-info">
                 Pretium nibh ipsum consequat nisl vel pretium.
                 Amet tellus cras adipiscing enim eu turpis.
                 ©Copyright 2015 - 2020
