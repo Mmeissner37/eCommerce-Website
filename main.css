@@ -159,10 +159,6 @@ h3 {
     color: #BF7631;
 }
 
-.section {
-    display: inline;
-    align-items: flex-start;
-}
 
 input,
 textarea,
@@ -178,7 +174,7 @@ input[type="submit"] {
     display: block;
     background-color: #BF7631;
     color: white;
-    width: 100px;   
+    width: 100px; 
 }
 
 .contact {
@@ -187,31 +183,43 @@ input[type="submit"] {
     width: 60%;
 }
 
-.contact input[type="submit"] {
-    align-items: left;
-    width: 40px;
+
+fieldset {
+    border: none;
+}
+
+
+fieldset label {
+    display: block;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    margin-right: 1rem;
+    padding: 0.5rem;
 }
 
 
 .footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
     width: auto;
     height: auto;
     background-color: #BF7631;
     margin-top: 40px;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .footer-icons {
-    align-items: inline;
+    display: block;
     text-align: center;
+}
 
+.footer img {
+    width: 25px;
+    height: 25px;
+    display: inline;
 }
 
 .footer-info {
     word-spacing: 50;
-    text-align: left;
+    text-align: right;
 }
