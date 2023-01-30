@@ -31,7 +31,6 @@ header {
     align-items: center;
     width: auto;
     height: auto;
-
 }
 
 nav a {
@@ -68,16 +67,33 @@ nav li {
 }
 
 .home {
+    display: flex;
+    justify-content: center;
     background-color: black;
     color: white;
-    align-content: center;
+    width: auto;
+    height:
 }
 
 .home img {
+    align-content: center;
     width: 1000px;
     height: 450px;
-    align-items: right;
 }
+
+.home, .top-left {
+    position: relative;
+    top: 8px;
+    left: 16px;
+}
+
+.home, .bottom-right {
+    position: relative;
+    bottom: 8px;
+    right: 16px;
+}
+
+
 
 .About {
     display: flex;
